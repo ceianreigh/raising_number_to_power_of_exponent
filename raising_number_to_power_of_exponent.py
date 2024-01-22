@@ -2,9 +2,12 @@
 
 # pseudocode
 
-# define a function called exponent that takes in two parameters, base and exp
 
-# return base raised to the power of exp
+# define a function called exponent that takes in two parameters, base and exp
+def exponent(base, exp):
+    # return base raised to the power of exp
+    return base**exp
+
 
 # ask user for input for base and exp
 base = int(input("Enter the base: "))
